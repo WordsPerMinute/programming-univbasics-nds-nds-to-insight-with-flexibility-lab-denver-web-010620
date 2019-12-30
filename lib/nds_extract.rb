@@ -99,8 +99,13 @@ def movies_with_directors_set(source)
   i = 0
   largerArray = []
   while i < source.length do
+    inCount = 0
+    innerLen = source[i][:movies].length
     subArray = []
-    subArray << {title: source[i][:movies][:title], name: source[i][:name]}
+    while inCount < innerLen do
+        subArray << {title: source[i][:movies][inCount][:title], name: source[i][:name]}
+        inCount += 1
+    end
     largerArray << subArray
     i += 1
   end
