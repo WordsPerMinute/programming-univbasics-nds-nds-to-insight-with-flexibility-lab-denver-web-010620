@@ -109,6 +109,7 @@ def movies_with_directors_set(source)
     largerArray << subArray
     i += 1
   end
+  return largerArray
 end
 
 # ----------------    End of Your Code Region --------------------
