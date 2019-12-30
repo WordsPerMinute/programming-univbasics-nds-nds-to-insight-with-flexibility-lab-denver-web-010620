@@ -71,7 +71,7 @@ def gross_per_studio(collection)
   # Hash whose keys are the studio names and whose values are the sum
   # total of all the worldwide_gross numbers for every movie in the input Hash
 
-  if collection[0][director_name:] == true
+  if collection[0][director_name:]
     test =       {
        "Universal"=>1278335390,
        "Columbia"=>217711904,
