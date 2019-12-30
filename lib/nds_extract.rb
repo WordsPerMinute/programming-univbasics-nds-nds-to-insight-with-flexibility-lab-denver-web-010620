@@ -51,7 +51,7 @@ def movies_with_director_key(name, movies_collection)
   iMovieHashes = 0
   newArray = []
   while iMovieHashes < movies_collection.length do
-    movie_with_director_name(name, movie_collectiob)
+    movie_with_director_name(name, movie_collection)
     iMovieHashes += 1
   end
   return newArray
