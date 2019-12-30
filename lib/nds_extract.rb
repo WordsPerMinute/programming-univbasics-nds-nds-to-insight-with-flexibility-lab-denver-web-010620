@@ -51,7 +51,7 @@ def movies_with_director_key(name, movies_collection)
   iMovieHashes = 0
   newArray = []
   while iMovieHashes < movies_collection.length do
-    AoH[:director_name] = movies_collection[iMovieHashes][:director_name]
+    newArray[:director_name] = movies_collection[iMovieHashes][:director_name]
     iMovieHashes += 1
   end
   return newArray
