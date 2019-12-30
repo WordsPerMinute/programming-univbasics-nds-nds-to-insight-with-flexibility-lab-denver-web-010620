@@ -49,7 +49,7 @@ def movies_with_director_key(name, movies_collection)
   # :director_name key. This addition can be done by using the provided
   # movie_with_director_name method
   iMovieHashes = 0
-  AoH = []
+  newArray = []
   while iMovieHashes < movies_collection.length do
     AoH[:director_name] = movies_collection[iMovieHashes][:director_name]
     iMovieHashes += 1
