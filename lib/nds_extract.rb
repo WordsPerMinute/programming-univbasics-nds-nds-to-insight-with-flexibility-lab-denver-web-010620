@@ -54,7 +54,7 @@ def movies_with_director_key(name, movies_collection)
     AoH[:director_name] = movies_collection[iMovieHashes][:director_name]
     iMovieHashes += 1
   end
-  return AoH
+  return newArray
   #movie_with_director_name(director_name, movie_data)
   #if spice_rack[row_index][element_index][0] == "P"
   #inner_results << spice_rack[row_index][element_index]
