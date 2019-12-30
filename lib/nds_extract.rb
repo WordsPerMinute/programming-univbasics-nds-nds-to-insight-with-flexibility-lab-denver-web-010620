@@ -51,10 +51,11 @@ def movies_with_director_key(name, movies_collection)
   iMovieHashes = 0
   newArray = []
   while iMovieHashes < movies_collection.length do
-    newArray[:director_name] = movies_collection[iMovieHashes][:director_name]
+    movie_with_director_name(name, movie_collectiob)
     iMovieHashes += 1
   end
   return newArray
+  #     newArray[:director_name] = movies_collection[iMovieHashes][:director_name]
   #movie_with_director_name(director_name, movie_data)
   #if spice_rack[row_index][element_index][0] == "P"
   #inner_results << spice_rack[row_index][element_index]
