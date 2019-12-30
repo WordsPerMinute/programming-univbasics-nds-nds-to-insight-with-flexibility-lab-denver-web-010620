@@ -75,14 +75,14 @@ def gross_per_studio(collection)
   while i < collection.length do
       studio_name = collection[i][:studio]
       studio_movie_gross = collection[i][:worldwide_gross]
-      if 1 < 2 #!studiosGross[studio_name]
-          studiosGross = studio_movie_gross
-      else
-          studiosGross += studio_movie_gross
-      end
+    #  if 1 < 2 #!studiosGross[studio_name]
+  #        studiosGross = studio_movie_gross
+  #    else
+  #        studiosGross += studio_movie_gross
+  #    end
       i += 1
   end
-  return studiosGross
+  collection[i][:worldwide_gross]
 end
 
 def movies_with_directors_set(source)
