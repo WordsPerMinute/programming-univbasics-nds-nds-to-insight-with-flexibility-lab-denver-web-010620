@@ -48,12 +48,12 @@ def movies_with_director_key(name, movies_collection)
   # Array of Hashes where each Hash represents a movie; however, they should all have a
   # :director_name key. This addition can be done by using the provided
   # movie_with_director_name method
-#  i = 0
-#  AoH = []
-#  while i < movies_collection.length do
-#    AoH << {movie_with_director_name(director_name, movie_data): }
-#  end
-pp test  
+  iMovieHashes = 0
+  AoH = []
+  while iMovieHashes < movies_collection.length do
+    AoH[:director_name] = movies_collection[iMovieHashes][:director_name]
+    iMovieHashes += 1
+  end
   #movie_with_director_name(director_name, movie_data)
   #if spice_rack[row_index][element_index][0] == "P"
   #inner_results << spice_rack[row_index][element_index]
