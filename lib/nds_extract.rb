@@ -81,7 +81,7 @@ def gross_per_studio(collection)
   #        studiosGross += studio_movie_gross
   #    end
       i += 1
-  end
+  #end
   collection[i][:worldwide_gross]
 end
 
